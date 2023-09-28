@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c98d1e21-e66e-4d54-8367-f7fc62ea71df" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/database/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-app/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/ClientList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-app/src/setupTests.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2W2O7L2vUg0bdL80yx8XxX9eOAk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c98d1e21-e66e-4d54-8367-f7fc62ea71df" name="Changes" comment="" />
+      <created>1695927041418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695927041418</updated>
+      <workItem from="1695927043055" duration="329000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

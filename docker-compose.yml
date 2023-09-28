@@ -1,0 +1,41 @@
+version: '3.1'
+services:
+  # MySQL Database
+  devops_najib-database:
+    container_name: najib-database
+    image: mysql
+    environment:
+      MYSQL_DATABASE: customer_db
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  # Express.js Server
+  server-app:
+    build:
+      context: ./server-app
+    ports:
+      - '5000:5000'  # Map port 3000 in the container to port 3000 on the host
+    depends_on:
+      - devops_najib-database
+    networks:
+      - app-network
+
+  # React.js Frontend
+  web-app:
+    build:
+      context: ./web-app
+    ports:
+      - '3000:3000'  # Map port 3000 in the container to port 3000 on the host
+    depends_on:
+      - server-app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
